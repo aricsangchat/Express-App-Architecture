@@ -1,0 +1,29 @@
+{
+  "name": "express-app-achitecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node_modules/.bin/mocha tests/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aricsangchat/Express-App-Architecture.git"
+  },
+  "author": "aric sangchat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aricsangchat/Express-App-Architecture/issues"
+  },
+  "homepage": "https://github.com/aricsangchat/Express-App-Architecture#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "should": "^13.2.1"
+  }
+}
